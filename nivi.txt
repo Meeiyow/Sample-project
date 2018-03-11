@@ -3,7 +3,7 @@ JAVA INTRODUCTION
 
   *java is a simple and yet powerful object oriented programing language and its  similar to c++.
   *java is designed by sun micro systems in 1991 and currently owned by oracle.
- *more than 3 billion devices run java, java is used to develope apps for googles android os,   various desktop applications  such as media players , antivirus programs, web applicatins,   enterprise apps(banking) and many more 
+ *more than 3 billion devices run java, java is ushdhdhed to develope apps for googles android os,   various desktop applications  such as media players , antivirus programs, web applicatins,   enterprise apps(banking) and many more 
 
 FEATURES OF JAVA
 ------------------------------
