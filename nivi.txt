@@ -1,0 +1,215 @@
+JAVA INTRODUCTION
+---------------------------------
+
+  *java is a simple and yet powerful object oriented programing language and its  similar to c++.
+  *java is designed by sun micro systems in 1991 and currently owned by oracle.
+ *more than 3 billion devices run java, java is used to develope apps for googles android os,   various desktop applications  such as media players , antivirus programs, web applicatins,   enterprise apps(banking) and many more 
+
+FEATURES OF JAVA
+------------------------------
+*simple
+*object oriented
+*open source
+*platform independent
+ 	java is guaranteed to be 'write-once, run anywhere' language. unlike other 	programing language such as c, c++ etcwhich are compiled into 	plateform specific machine.
+
+	on compilation java program is compiled into bytecode. this bytecode is 	plateform independent and can be run on any machine
+*secured
+*robust
+*multithreaded
+
+ JAVA SYLLABUS
+------------------------------
+1.Core java
+2.Selenium
+3.Framwork
+4.Database
+5.Tools
+6.Methology
+
+1.CORE JAVA
+----------------------
+Syllabus:
+
+1. oops concept
+2.control statement/looping
+3.arrays
+4.string
+5.exceptions
+6.collections
+
+Terminology:
+JDK
+JRE
+JVM
+
+JDK
+-------
+
+  Java Developement Kit
+ if run any applications we need JDK have to installed
+
+jdk versions: 1.0-1.9
+mostly 1.8 is used now
+
+JRE
+-----
+   	Java Runtime Environment
+
+it is a pre defined class files(i.e) library files
+
+JVM
+-------
+  	Java Virtual Machine
+
+It is mainly used to allocate the memory and compiling
+
+TOOLS
+------------
+	*notepad
+	*netbean
+	*eclipse
+	*Jdeveloper-oracle
+	*RAD-IBM
+
+Nowadays we mostly used tool is eclipse(75%).
+versons of eclipse-Juno, kepler,luna, mars, neon
+
+OOPS CONCEPT
+--------------------------
+
+	Object Oriented Programing Structure
+oops is a method of implementation in which programs are organised as collection of objects, class and methods
+
+four principles oops are
+	1.Abstraction
+	2.Encapsulation
+	3.Inheritance
+	4.polymorphism
+CLASS:
+-----------
+
+class is nothing but collection of methods or collection of objects.
+
+project name: shoud be in baskal notation
+
+baskal notation: each word of first letter should be in capital
+
+src-source file
+
+class name: baskal notation
+
+package creation: ex, org.cts.scope
+	             all small letters	
+
+SYNTAX: 
+(first type class name and click ctrl+space)
+public class (class name) {
+}
+
+public-- access specifier
+
+METHOD:
+---------------
+
+set of action to be performed 
+
+method name: camel notaion
+
+
+camel notation : second word of the first letter should be capital 
+
+SYNTAX:
+
+public void (method name){
+}
+
+Main Method:
+
+public static void main(String[] arg){
+}
+
+main--->ctrl+space
+
+OBJECT:
+-------------
+
+	*run time memory allocation
+	*using object we call the any methods
+
+SYNTAX:
+
+(class name) (object name) =new (class name) ();
+
+
+Allignment--> ctrl + shift+ F
+Run--> ctrl +F11
+
+Example programe:
+1. StudentDatabase
+
+package org.mamce.students;
+
+public class StudentInfo {
+	public void Studentname() {
+		System.out.println("Name:Vengat");
+	}
+
+	public void studentList() {
+		System.out.println();
+		// TODO Auto-generated method stub
+
+	}
+
+	public void StudentMark() {
+		System.out.println("Mark:1005");
+
+	}
+
+	public void StudentAddress() {
+		System.out.println("Address: Chennai");
+	}
+
+	public static void main(String[] arg) {
+		StudentInfo info = new StudentInfo();
+		info.Studentname();
+		info.StudentMark();
+		info.StudentAddress();
+	}
+
+}
+
+
+2.E-Commerce
+
+package org.amazon.web;
+
+public class OnlineShoppingSite {
+	public void myAccount() {
+		// TODO Auto-generated method stub
+		System.out.println("Account Name");
+	}
+
+	public void catalog() {
+		// TODO Auto-generated method stub
+		System.out.println("My cat");
+	}
+
+	public void orders() {
+		// TODO Auto-generated method stub
+		System.out.println("My Orders");
+	}
+
+	public void myWishList() {
+		// TODO Auto-generated method stub
+		System.out.println("MY Wish List");
+	}
+
+	public static void main(String[] args) {
+		OnlineShoppingSite info = new OnlineShoppingSite();
+		info.catalog();
+		info.myAccount();
+		info.orders();
+		info.myWishList();
+	}
+}
